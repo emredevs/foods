@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import HomeContainer from "./page/home";
+import { FoodContextProvider } from "./context";
+import Category from "./page/categories";
+import Search from "./page/search-food";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FoodContextProvider>
+        <Routes>
+          <Route path="/" element={<HomeContainer />} />
+          <Route path="/:id" element={<Category />} />
+          <Route path="/search/:id" element={<Search />} />
+        </Routes>
+      </FoodContextProvider>
     </div>
   );
 }

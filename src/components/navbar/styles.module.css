@@ -1,0 +1,13 @@
+.categoryContainer{
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: #ff9d29;
+color: #ffffe5;
+height: 80px;
+margin: 10px;
+font-size: large;
+font-weight: bold;
+border-radius: 10px;
+}
+

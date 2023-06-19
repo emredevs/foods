@@ -1,0 +1,17 @@
+.foodList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.foodBox{
+    padding: 10px;
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #ff9d29;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.foodBox>img{
+    border-radius: 10px;
+}
