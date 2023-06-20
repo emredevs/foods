@@ -28,3 +28,10 @@
     height: 80%;
     border-radius: 10px;
 }
+
+
+@media (max-width: 910px){
+    .searchBox{
+        width: 100%;
+    }
+  }

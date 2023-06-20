@@ -22,9 +22,12 @@ export default function FoodList() {
               </span>
             </FoodModal>
           )}
-          <img src={food.strCategoryThumb} alt="" />
+
           <div>
-            <Link to={`/${food.strCategory}`}>{food.strCategory}</Link>
+            <Link to={`/${food.strCategory}`}>
+              <img src={food.strCategoryThumb} alt="" />
+              {food.strCategory}
+            </Link>
           </div>
           <button
             onClick={() => {

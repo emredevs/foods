@@ -10,7 +10,8 @@ export default function Category() {
   useEffect(() => {
     axios
       .get(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${id}`)
-      .then((res) => setCate(res.data.meals));
+      .then((res) => setCate(res.data.meals))
+      .catch((err) => console.log(err));
   }, [id]);
   console.log(id);
   console.log(cate);
@@ -20,9 +21,15 @@ export default function Category() {
       <div className={styles.cateList}>
         {cate.map((cate) => (
           <div className={styles.cateBox} key={cate.idMeal}>
-            <img src={cate.strMealThumb} alt="" />
             <div>
-              <Link to={`/search/${cate.strMeal}`}>{cate.strMeal}</Link>
+              <Link to={`/search/${cate.strMeal}`}>
+                <img
+                  className={styles.cateImg}
+                  src={cate.strMealThumb}
+                  alt=""
+                />
+                {cate.strMeal}
+              </Link>
             </div>
           </div>
         ))}
