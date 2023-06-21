@@ -37,6 +37,23 @@ export default function Navbar() {
           />
         )}
       </ul>
+      <div className={styles.mobileForm}>
+        {!formOpen && (
+          <SearchIcon
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              setFormOpen(true);
+            }}
+          />
+        )}
+        <FoodForm formOpen={formOpen} />
+        {formOpen && (
+          <CloseIcon
+            style={{ cursor: "pointer" }}
+            onClick={() => setFormOpen(false)}
+          />
+        )}
+      </div>
     </div>
   );
 }

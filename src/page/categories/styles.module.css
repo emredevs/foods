@@ -22,7 +22,25 @@
     border-radius: 10px;
 }
 
-@media (max-width: 910px){
+@media (max-width: 1200px){
+  .cateBox{
+      width: 30%;
+      height: 240px;
+  }
+}
+
+@media (max-width: 992px){
+  .cateBox{
+      width: 40%;
+      height: 240px;
+  }
+}
+@media (max-width: 768px){
+  .cateBox{
+      width: 50%;
+  }
+}
+@media (max-width: 576px){
   .cateBox{
       width: 100%;
   }
