@@ -26,7 +26,7 @@ export default function Search() {
                   <div>Area: {food.strArea}</div>
                   <div>Meal: {food.strMeal}</div>
                   <div>Category: {food.strCategory}</div>
-                  İçindekiler:
+                  Contents:
                   <div>{food.strIngredient1},</div>
                   <div>{food.strIngredient2},</div>
                   <div>{food.strIngredient3},</div>
