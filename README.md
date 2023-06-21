@@ -4,8 +4,13 @@ Bu proje, restoranlardaki QR kodları tarayarak menülere yönlendirme işlemi �
 ## Teknolojiler
 Proje aşağıdaki teknolojileri kullanmaktadır:
 
-Context: React uygulamalarında veri paylaşımı için kullanılan bir yönetim sistemidir. Bu proje, Context'i kullanarak verileri yönetmekte ve bileşenler arasında iletişimi sağlamaktadır.
-react-router-dom: React uygulamalarında sayfa yönlendirmesi ve gezinme için kullanılan bir kütüphanedir. Bu proje, kullanıcıyı farklı menü sayfalarına yönlendirmek için react-router-dom'u kullanmaktadır.
-axios: HTTP isteklerini gerçekleştirmek için kullanılan bir kütüphanedir. Bu proje, restoran menülerini sunan API'ye istek göndermek ve verileri almak için axios'u kullanmaktadır.
-Material UI: React uygulamaları için kullanıcı arayüzü bileşenleri sağlayan bir kütüphanedir. Bu proje, modern ve şık bir görünüm elde etmek için Material UI bileşenlerini kullanmaktadır.
-Kendi oluşturduğum modal yapısı: Projede özel bir modal bileşeni kullanılmaktadır. Bu modal yapısı, kullanıcıya daha fazla bilgi sunmak için kullanılmaktadır.
+### Context
+React uygulamalarında veri paylaşımı için kullanılan bir yönetim sistemidir. Bu proje, Context'i kullanarak verileri yönetmekte ve bileşenler arasında iletişimi sağlamaktadır.
+
+### react-router-dom
+React uygulamalarında sayfa yönlendirmesi ve gezinme için kullanılan bir kütüphanedir. Bu proje, kullanıcıyı farklı menü sayfalarına yönlendirmek için react-router-dom'u kullanmaktadır.
+### axios
+HTTP isteklerini gerçekleştirmek için kullanılan bir kütüphanedir. Bu proje, restoran menülerini sunan API'ye istek göndermek ve verileri almak için axios'u kullanmaktadır.
+### Material UI
+React uygulamaları için kullanıcı arayüzü bileşenleri sağlayan bir kütüphanedir. Bu proje, modern ve şık bir görünüm elde etmek için Material UI bileşenlerini kullanmaktadır.
+
