@@ -1,3 +1,6 @@
+![QR](public/frame.png)
+
+
 # Proje Açıklaması
 Bu proje, restoranlardaki QR kodları tarayarak menülere yönlendirme işlemi üzerine odaklanmaktadır. Amacı, kullanıcıların restoran menülerine hızlı ve kolay bir şekilde erişmelerini sağlamaktır. Proje, sade ve anlaşılır bir tasarımı hedeflemekte olup, kullanıcılara yemekler hakkında kısa bilgiler sunmakta ve daha detaylı bilgilere erişim imkanı sağlamaktadır.
 
